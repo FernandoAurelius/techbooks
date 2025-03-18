@@ -79,3 +79,26 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+.heart {
+    display: none;
+}
+
+.heart-checkbox {
+    display: none;
+}
+
+.heart-checkbox:checked + .icon > svg {
+    animation: fill-heart;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fill-heart {
+    0% {
+      fill: transparent;
+    }
+    100% {
+      fill: #d75a4a;
+    }
+}
