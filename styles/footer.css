@@ -1,0 +1,17 @@
+hr {
+    margin: 0;
+}
+
+.footer {
+    background-color: var(--white);
+    padding: 1em;
+}
+
+.footer__title {
+    color: var(--blue-gradient);
+}
+
+.footer__title > a {
+    text-decoration: none;
+    color: var(--blue-gradient);
+}
