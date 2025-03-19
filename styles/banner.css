@@ -35,5 +35,19 @@
 }
 
 @media screen and (min-width: 1024px) {
-    
+    .banner {
+        padding: 5em 4em;
+    }
+
+    .banner__title{
+        font-size: 36px;
+    }
+
+    .banner__search {
+        width: 50%;
+    }
+
+    .banner__search::placeholder {
+        background-position: 4em;
+    }
 }

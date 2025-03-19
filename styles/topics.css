@@ -30,5 +30,11 @@
 }
 
 @media screen and (min-width: 1024px) {
-    
+    .topics__title {
+        font-size: 24px;
+    }
+
+    .topics__link {
+        font-size: 18px;
+    }
 }

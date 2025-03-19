@@ -83,6 +83,8 @@
 
     .options {
         display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
 
     .options__item {
