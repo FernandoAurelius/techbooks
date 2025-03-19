@@ -102,4 +102,13 @@
     .header__hamburger-button {
         display: none;
     }
+
+    .options__button:checked~.menu-list {
+        display: block;
+        width: auto;
+    }
+
+    .options__button {
+        display: none;
+    }
 }
