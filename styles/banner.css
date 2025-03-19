@@ -33,3 +33,7 @@
     background: url('/assets/Pesquisa.png') no-repeat;
     background-position: 0.5em;
 }
+
+@media screen and (min-width: 1024px) {
+    
+}

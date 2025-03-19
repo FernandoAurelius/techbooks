@@ -34,3 +34,7 @@
     background: url("../assets/Email.svg") no-repeat;
     padding: 2.5em;
 }
+
+@media screen and (min-width: 1024px) {
+    
+}
