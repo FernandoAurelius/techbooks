@@ -38,3 +38,9 @@
         font-size: 18px;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .topics {
+        padding: 6em 35vw;
+    }
+}
