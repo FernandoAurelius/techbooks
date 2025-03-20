@@ -16,9 +16,11 @@
     --background-color: #EBECEE;
     --white: #FFF;
     --black: #000;
+    --gray: #474646;
+    --light-gray: #858585; 
     --orange: #EB9B00;
     --blue: #002F52;
-    --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --deep-blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --main-font: "Poppins";
     --secondary-font: "Josefin Sans";
 }

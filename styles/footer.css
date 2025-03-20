@@ -8,14 +8,49 @@ hr {
 }
 
 .footer__title {
-    color: var(--blue-gradient);
+    background: var(--deep-blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
-.footer__title > a {
+.footer__title__link {
     text-decoration: none;
-    color: var(--blue-gradient);
+}
+
+.footer__list {
+    display: none;
 }
 
 @media screen and (min-width: 1024px) {
-    
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer__list {
+        display: block;
+    }
+
+    .footer__list__item {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        margin: .6em 0;
+    }
+
+    .footer__list__link {
+        color: var(--gray);
+        text-decoration: none;
+    }
+
+    .footer__list__title {
+        font-size: 15px;
+        color: var(--light-gray);
+    }
+
+    .footer__title {
+        font-size: 24px;
+        margin-right: 10px;
+    }
 }
